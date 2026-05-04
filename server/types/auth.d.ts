@@ -1,0 +1,14 @@
+declare module '#auth-utils' {
+  interface User {
+    id: string
+    email: string
+    name: string
+    avatar: string
+  }
+
+  interface UserSession {
+    user: User
+  }
+}
+
+export {}

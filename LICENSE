@@ -1,0 +1,128 @@
+Attribution Network License (ANL) v1.0 - Curatory Adaptation
+
+Copyright (c) 2026 KennKyou and Curatory contributors
+
+This repository is licensed under a dual-track model:
+
+- Library Code is licensed under the MIT License.
+- Project Code is licensed under the GNU Affero General Public License,
+  version 3 or any later version (AGPL-3.0-or-later), with the additional
+  UI attribution requirement in Section 4.
+
+## 1. Definitions and Classification
+
+"Library Code" means components, SDKs, reusable modules, and related
+source/objects primarily intended to be linked to or called by other software.
+
+"Project Code" means complete applications/services, together with
+build/deploy scripts and operational assets primarily intended to deliver
+end-user functionality.
+
+File-level determination:
+
+- An SPDX header prevails when present:
+  - `SPDX-License-Identifier: MIT` means Library Code.
+  - `SPDX-License-Identifier: AGPL-3.0-or-later` means Project Code.
+- If no SPDX header is present, conventional paths may guide:
+  - `app/`, `server/`, `scripts/`, `public/`, `docs/` are Project Code unless
+    explicitly marked otherwise.
+  - `lib/`, `libs/`, `sdk/`, `plugins/`, and package-style reusable modules are
+    Library Code unless explicitly marked otherwise.
+
+Merely combining Library Code and Project Code in the same repository or
+distribution does not change each part's license.
+
+## 2. License Application Overview
+
+Library Code is licensed under the MIT License. See Section 3.
+
+Project Code is licensed under AGPL-3.0-or-later, with the additional UI
+attribution requirement in Section 4. When you run or offer Project Code with
+interactive features over a network, you must provide Corresponding Source to
+those users as required by AGPLv3, including the remote network interaction
+clause.
+
+No trademark rights are granted. You may not imply endorsement by KennKyou,
+Curatory, or contributors.
+
+Third-party components remain governed by their own licenses. See NOTICE for
+known third-party notices.
+
+Unless stated otherwise, project documentation and non-code media assets are
+licensed under CC BY 4.0. Trademarks and brand elements are not licensed.
+
+## 3. MIT License for Library Code
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+## 4. Additional Terms for Project Code
+
+These additional terms apply only to files licensed as Project Code under
+AGPL-3.0-or-later and are intended to be compatible with GPLv3/AGPLv3 Section 7.
+
+### 4.1 UI Attribution and Appropriate Legal Notice
+
+When Project Code runs with an interactive user interface, locally or as a
+network service, you must display an Appropriate Legal Notice in at least one
+prominent location containing:
+
+Powered by Curatory - Source: https://github.com/KennKyou/Curatory - License: AGPL-3.0-or-later
+
+A prominent location is satisfied by any of:
+
+- an About dialog/page;
+- a signed-in home or footer;
+- a Settings page;
+- an equivalent persistent help/about location.
+
+Text may be localized and styled to match the product, but must remain
+reasonably visible at common resolutions.
+
+Modified deployments should replace the source URL with a link to the exact
+Corresponding Source for the running version.
+
+API-only services with no human-facing UI must expose a machine-readable
+endpoint, such as `/legal` or `/about`, returning the same attribution and a
+link to the exact Corresponding Source.
+
+Non-interactive CLIs that only print logs are exempt.
+
+### 4.2 Modification Notice
+
+You must state changes you make to Project Code, including the date of change,
+in a reasonable place in the source, such as a CHANGELOG or per-file header.
+
+### 4.3 No Additional Restrictions
+
+These additional terms do not expand copyright scope, do not alter the
+definition of Corresponding Source, and do not impose further restrictions
+beyond those permitted by GPLv3/AGPLv3 Section 7. In case of conflict, the
+AGPL-3.0-or-later text controls.
+
+## 5. AGPL-3.0-or-later for Project Code
+
+Project Code is licensed under the GNU Affero General Public License, version 3
+or any later version, as published by the Free Software Foundation.
+
+You should have received a copy of the GNU Affero General Public License along
+with this program. If not, see:
+
+https://www.gnu.org/licenses/agpl-3.0.html

@@ -1,0 +1,26 @@
+Curatory
+Copyright (c) 2026 KennKyou
+Licensed under the GNU Affero General Public License v3.0 or later (AGPL-3.0-or-later)
+
+This project's UI design is inspired by Afilmory (https://github.com/Afilmory/afilmory),
+licensed under the Attribution Network License (ANL) v1.0.
+Afilmory's Project Code is licensed under AGPL-3.0-or-later with additional UI attribution
+requirements per GPLv3 Section 7.
+
+Original project: https://github.com/Afilmory/afilmory
+Original license: https://github.com/Afilmory/afilmory/blob/main/LICENSE
+Copyright (c) 2025 Afilmory Team
+
+This project bundles 3D emoji assets from Microsoft's Fluent UI Emoji library
+(https://github.com/microsoft/fluentui-emoji), licensed under the MIT License.
+Copyright (c) Microsoft Corporation.
+
+The following 3D PNG assets are redistributed under `public/emoji/`:
+  - heart-eyes.png       (Smiling face with heart-eyes)
+  - star-struck.png      (Star-struck)
+  - thumbs-up.png        (Thumbs up, default skin tone)
+  - fire.png             (Fire)
+  - raising-hands.png    (Raising hands, default skin tone)
+  - camera.png           (Camera)
+
+MIT License text: https://github.com/microsoft/fluentui-emoji/blob/main/LICENSE
